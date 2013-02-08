@@ -1,0 +1,13 @@
+{
+  "name": "Find and highlight schema.org microdata items on the page.",
+  "version": "0.1",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "file://*/*", "http://schema.rdfs.org/all.json"
+  ],
+  "browser_action": {
+      "default_title": "Find microdata items.",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

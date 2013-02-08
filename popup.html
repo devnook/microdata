@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Set Page Color Popup</title>
+    <link rel="stylesheet" type="text/css" href="jquery-ui-1.10.0.custom.min.css">
+    <style type="text/css">
+    body {
+      padding: 1em;
+      font-family: sans-serif;
+      width: 200px;
+      height: 200px;
+    }
+    h2 {
+      font-size: 1.1em;
+    }
+    .itemtype {
+      border-radius: 1em;
+      background-color: #eee;
+      display: inline-block;
+      margin: 5px;
+      padding: 5px 10px;
+    }
+    .selected,
+    .itemtype:hover {
+      background-color: rgba(255, 185, 61, 0.73);
+    }
+
+
+    </style>
+
+    <script src="jquery-1.9.1.min.js"></script>
+    <script src="popup.js"></script>
+
+  </head>
+  <body>
+    <div>
+      <div id="result"><h2>Checking types...</h2></div>
+    </div>
+  </body>
+</html>
